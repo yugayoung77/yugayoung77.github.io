@@ -23,7 +23,7 @@ const Activities = () => {
         {
             year: "2025.11 ~",
             title: "커피빈 코리아 근무",
-            subtitle: "주말 매장 관리",
+            subtitle: "매장 관리 및 고객응대",
         },
         {
             year: "2025.05 - 2025.09",

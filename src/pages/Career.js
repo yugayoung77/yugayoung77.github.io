@@ -142,50 +142,42 @@ const Career = () => {
 
     const skillData = [
         {
-            name: "HTML",
-            icon: "🌐",
+            name: "html",
         },
         {
-            name: "CSS",
-            icon: "🎨",
+            name: "css",
         },
         {
-            name: "JavaScript",
-            icon: "⚡",
+            name: "javascript",
         },
         {
-            name: "jQuery",
+            name: "jquery",
             icon: "🔧",
         },
         {
-            name: "React",
-            icon: "⚛️",
+            name: "react",
         },
         {
-            name: "Sass",
-            icon: "💅",
+            name: "sass",
         },
         {
-            name: "Tailwind CSS",
-            icon: "🍃",
+            name: "tailwind_css",
         },
         {
-            name: "Bootstrap",
-            icon: "🥾",
+            name: "bootstrap",
         },
         {
-            name: "Dart",
-            icon: "⏭️",
+            name: "dart",
         },
         {
-            name: "Flutter",
-            icon: "🦋",
+            name: "flutter",
         },
         {
-            name: "Git",
-            icon: "🔗",
+            name: "git",
         },
     ];
+
+
 
     return (
         <div className="flex flex-col items-center min-h-screen pt-20">
@@ -197,10 +189,6 @@ const Career = () => {
             <div className="w-full lg:w-2/5 flex flex-wrap justify-center items-center gap-6">
                 {skillData.map((skill, index) => {
                     let fileName = skill.name.toLowerCase().replace(/\s/g, "");
-
-                    if (skill.name === "Tailwind CSS") {
-                        fileName = "Tailwind_CSS";
-                    }
 
                     return (
                         <div
