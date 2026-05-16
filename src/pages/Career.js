@@ -142,41 +142,50 @@ const Career = () => {
 
     const skillData = [
         {
-            name: "html",
+            name: "HTML",
+            file: "html",
         },
         {
-            name: "css",
+            name: "CSS",
+            file: "css",
         },
         {
-            name: "javascript",
+            name: "JavaScript",
+            file: "javascript",
         },
         {
-            name: "jquery",
-            icon: "🔧",
+            name: "jQuery",
+            file: "jquery",
         },
         {
-            name: "react",
+            name: "React",
+            file: "react",
         },
         {
-            name: "sass",
+            name: "Sass",
+            file: "sass",
         },
         {
-            name: "tailwind_css",
+            name: "Tailwind_CSS",
+            file: "tailwind_css",
         },
         {
-            name: "bootstrap",
+            name: "Bootstrap",
+            file: "bootstrap",
         },
         {
-            name: "dart",
+            name: "Dart",
+            file: "dart",
         },
         {
-            name: "flutter",
+            name: "Flutter",
+            file: "flutter",
         },
         {
-            name: "git",
+            name: "Git",
+            file: "git",
         },
     ];
-
 
 
     return (
@@ -188,7 +197,6 @@ const Career = () => {
 
             <div className="w-full lg:w-2/5 flex flex-wrap justify-center items-center gap-6">
                 {skillData.map((skill, index) => {
-                    let fileName = skill.name.toLowerCase().replace(/\s/g, "");
 
                     return (
                         <div
@@ -197,7 +205,7 @@ const Career = () => {
                         >
                             <div className="text-3xl mb-8 transition-transform transform group-hover:scale-110">
                                 <img
-                                    src={`/images/${fileName}.webp`}
+                                    src={`/images/${skill.file}.webp`}
                                     alt={skill.name}
                                     className="w-12 h-12"
                                 />
