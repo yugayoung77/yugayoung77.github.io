@@ -211,7 +211,7 @@ const Career = () => {
                                 />
                             </div>
 
-                            <div className="absolute bottom-0 p-1 mt-4 left-1/2 transform -translate-x-1/2 w-20 text-center text-sm text-white bg-black rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                            <div className="absolute bottom-0 p-1 mt-4 left-1/2 transform -translate-x-1/2 w-24 text-center text-sm text-white bg-black rounded-md opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                                 {skill.name}
                             </div>
                         </div>
@@ -295,17 +295,11 @@ const Career = () => {
                                                                     case "Flutter":
                                                                         bgColor = "bg-sky-400";
                                                                         break;
-                                                                    case "Flutter Package":
-                                                                        bgColor = "bg-blue-500";
-                                                                        break;
                                                                     case "Firebase":
                                                                         bgColor = "bg-orange-400";
                                                                         break;
                                                                     case "Swagger UI":
                                                                         bgColor = "bg-green-500";
-                                                                        break;
-                                                                    case "Android studio":
-                                                                        bgColor = "bg-lime-500";
                                                                         break;
                                                                     case "Figma":
                                                                         bgColor = "bg-gray-500";
