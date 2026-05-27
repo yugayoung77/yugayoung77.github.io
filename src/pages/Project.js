@@ -41,7 +41,7 @@ const project = [
   },
   {
     id: 3,
-    title: "아이D",
+    title: "**D (현재 이름 변경)",
     description: [""],
     year: "2024.11 - 2024.12",
     category: "WORK",
